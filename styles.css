@@ -335,7 +335,7 @@ height: 3.5em;
   z-index: 1; /* Stay on top */
   top: 0; /* Stay at the top */
   right: 0;
-  background-color: #4e5c5a; /* Black*/
+  background-color: #7a4654; /* Black*/
   overflow-x: hidden; /* Disable horizontal scroll */
   padding-top: 60px; /* Place content 60px from the top */
   transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
@@ -387,11 +387,13 @@ height: 3.5em;
 .verdeagua {color: #a1d1cb;}
 .verdemusgo {color: #4e5c5a;}
 
-.bg-bordo {background-color: #7a4654; color: white;}
+.bg-bordo {background-color: #7a4654; color: white; border: none;}
 .bg-naranja {background-color: #ee7a54;}
 .bg-beige {background-color: #e1cfab;}
 .bg-verdeagua {background-color: #a1d1cb;}
-.bg-verdemusgo {background-color: #4e5c5a;}
+.bg-verdemusgo {background-color: #4e5c5a; color: white; border: none;}
+
+.btn-secondary:hover {background-color: #ee7a54; color: white; border: none;}
 
 /* PALETA EXTENDIDA */
 
@@ -444,6 +446,8 @@ height: 3.5em;
 
 
 /* ESTILOS TEXTO */
+
+.ensayo a {color:#7a4654;}
 
 .piedefoto {color: grey; font-style: italic; text-align: center; position:relative; z-index: 3;}
 
