@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+<head>
+ 
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <link href="styles.css" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans&display=swap" rel="stylesheet"> 
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+</head>
+
+<body class="bg-arena4">
+
+
+
+  <div id="mySidenav" class="sidenav" style="z-index: 2;">
+    <a href="javascript:void(0)" style="font-size:3em;" class="closebtn" onclick="closeNav()">&times;</a>
+    <a href="index.html#portada" target="">Inicio</a>
+    <a href="index.html#presentacion" target="">Presentación</a>
+    <a href="index.html#albumes" target="">Registros fotográficos</a>
+    <a href="ensayo1.html" target="">Ensayo: Tecnologías y entornos de trabajo en las escuelas</a>
+    <a href="index.html#fotografo" target="">La fotógrafa</a>
+    <a href="index.html#bibliografia" target="">Bibliografía</a>
+    <a href="index.html#creditos" target="">Créditos</a>
+  </div>
+  
+  <!-- MOSCA ISEP -->
+  <a href="https://isep-cba.edu.ar/" target="_blank" id="logoisep"><img src="img/logos/logo-mosca2.png" alt=""></a>
+
+  <!-- MENU -->
+  <img src="img/menu-icon-gris.svg" style="position:fixed; z-index:1; top:30px; right: 30px; opacity:0.5; height: 3em;" onclick="openNav()"/>
+  
+  <!-- Add all page content inside this div if you want the side nav to push page content to the right (not used if you only want the sidenav to sit on top of the page -->
+  <div id="main">
+
+<!-- PROGRESS BAR -->
+<nav style="position: fixed; bottom: 0; z-index: 1; width: 100%; padding: 0px;" class="navbar bg-body-tertiary">
+  <div class="progress-container">
+    <div class="progress-bar" id="myBar"></div>
+  </div>
+</nav>
+
+<!-- CONTENIDO -->
+  <div class="container content ensayo">
+
+    <!-- TÍTULO Y ENCABEZADO -->
+  <div class="row justify-content-center">
+    <div class="col col-xl-8">
+      <h1 class="bordo" id="titulo">La tecnología invisible</h1>
+      <p class="gris my-5" style="text-align: right;">por <a class="naranja" href="#bio">Javier Blanco</a></p>
+      </div>
+    </div>
+
+    <!-- FILA DE TEXTO -->
+    <div class="row justify-content-center">
+      <div class="col col-xl-8">
+        <p>
+          Imágenes de aulas o de otros espacios compartidos donde pibes y pibas estudian, conversan, expresan asombro o aburrimiento. Están pobladas de dispositivos diversos que componen ambientes activos. Algunos tienen una larga tradición, pero siguen siendo centrales en el vínculo educativo, como el pizarrón, las sillas o el avisador, con todo tipo de notas. Otros van quedando en desuso paulatinamente, como la fotocopiadora, que aún tiene un rol importante, o el proyector de transparencias, que ha ido al desván de los objetos obsoletos. Otros siguen funcionando como modelos visuales de conocimientos disciplinares, como un globo terráqueo o una reproducción de un esqueleto humano. La escuela está atravesada por tecnologías de la mirada: ver para comprender. 
+        </p>
+        <p>
+          Otro tipo de objetos abunda en las fotos, herederos de una tradición más larga de lo que usualmente se conoce: la de las máquinas de cálculo. Más allá de alguna precursora en la antigua Alejandría, las máquinas de calcular aparecen en la modernidad; quizá podría identificarse la pascalina, creada por Blaise Pascal en 1642 como una de las primeras máquinas útiles de calcular, aunque solo sumaba y restaba. Leibniz completa otra máquina, unos cincuenta años después, que también multiplicaba y dividía. Ya en el siglo XIX, Charles Babbage diseña una máquina de cálculo —el motor diferencial— capaz de resolver una gran familia de funciones matemáticas. Las calculadoras electrónicas que aún se usan son herederas de este linaje técnico.
+        </p>
+        <p>
+          Pero también encontramos objetos inéditos que captan la atención y que están transformando las maneras de aprender. Pequeños robots engañosamente simples y computadoras con carcasas idénticas y una inscripción que refiere a una de las políticas públicas más innovadoras y exitosas de las primeras décadas de este siglo: Conectar Igualdad. ¿Qué novedades introducen en el aula y qué desafíos conllevan? ¿Son realmente tan diferentes?
+        </p>
+        <p>
+          Podemos pensar a las computadoras y a los robots (computadoras con movilidad propia) como herederos de la tradición de las máquinas de cálculo. Pero involucran una gran transformación de estas, con la aparición de novedades que las convierten en nuevos objetos técnicos con propiedades mucho más sofisticadas que las de las calculadoras. Una de las predecesoras de las computadoras fue otra máquina diseñada por Babbage, que era completamente programable, pero que nunca se llegó a construir: el motor analítico. Pese a que solo quedó un diseño abstracto, Ada Lovelace —la primera programadora de la historia— pudo diseñar programas numéricos complejos para esta máquina. Además, pudo prever la evolución de estos sistemas para trabajar con otras entidades más allá de los números, todo esto en la primera mitad del siglo XIX. 
+        </p>
+        <p>
+          Un siglo después se producirá una confluencia de ideas que dará lugar a la noción actual de computación. Estas ideas no provienen principalmente de la electrónica o inicialmente de las máquinas de cálculo, sino de algunas actividades mucho más comunes que se aprenden en las aulas. Va a ser el matemático inglés Alan Turing quien pueda componer esta síntesis. 
+        </p>
+        <p>
+          En la película <i>The Imitation Game</i> (Tyldum, 2014), traducida misteriosamente como “El código Enigma”, aparece Turing en tres períodos de su vida que se van entrecruzando en la trama: cuando era adolescente en la escuela, un “<i>nerd</i>” estudioso y raro que se enamora de su compañero Christopher; en el año 1941, cuando trabaja en Bechtel Park en el servicio de inteligencia inglés en el área de criptografía, donde crea una máquina de cálculo que les permitía descifrar día a día los códigos de transmisión de la aviación alemana; y en la última parte de su vida, cuando es obligado a tomar hormonas para disminuir su deseo sexual y ser así “curado” de su homosexualidad (en 1951, la homosexualidad era un delito en la avanzada Inglaterra). Tres momentos importantes y transformadores en su vida y con consecuencias que perdurarían más allá de su biografía. Sin embargo, está ausente el momento más significativo y transformador para la historia de la humanidad, el período de Turing entre los años 1936 y 1937, cuando formaliza la idea de la computación efectiva que terminaría transformando drásticamente el mundo. Hay solo una breve escena que remite a ese descubrimiento y que pasa bastante desapercibida: cuando Turing sube al tren con destino a Bechtel Park, hay una niña haciendo cuentas, multiplicaciones, creo, en un cuaderno. Se miran brevemente, intercambian una sonrisa y Turing sigue su camino. 
+        </p>
+        <p>
+          La necesidad conceptual de formalizar la matemática, de expresar con precisión qué es un procedimiento mecánico de cálculo, hoy llamado <i>efectivo</i>, llevado a cabo por un ser humano, está en el origen de la noción de computación. Esto da nacimiento también a la idea de <i>algoritmo</i>, palabra que recientemente se ha popularizado con un sentido o un énfasis diferente al original, y tiene como ejemplo paradigmático el de una multiplicación o de otras operaciones aritméticas con cierta complejidad. Hay una serie de reglas precisas que, una vez aprendidas, pueden llevarse a cabo de manera mecánica para cualesquiera dos números que se tomen. Como primer paso, se dispone de “las tablas” de multiplicar, con las que pueden resolverse —en general, mentalmente— las multiplicaciones de dos dígitos y, a partir de esto, se hace un proceso que permite ir ubicando los resultados en sucesivas filas, para finalmente sumarlas y conseguir el resultado final. No hay tal cosa como una “comprensión intuitiva” de que el resultado sea correcto, solo la confianza en el método mismo.
+        </p>
+        <p>
+          La gran idea de Turing que terminó transformando radicalmente el mundo en que vivimos fue formalizar con precisión estos procesos, codificarlos en un lenguaje elemental que podía ser interpretado por un “computador” humano u otros mecanismos (la palabra “<i>computer</i>” aparece en su artículo de 1936 para referirse a una persona con lápiz y papel siguiendo reglas). A cada una de estas codificaciones Turing las llamó “máquinas aritméticas” —hoy llamadas “máquinas de Turing”—, que permitían prescribir cualquier proceso de cálculo mecánico. Turing mostró con varios ejemplos el poder de definición que tenían sus máquinas, pero quizá hubo uno en particular que fue el más convincente: el de la máquina universal. Esta máquina abstracta, precursora de las computadoras actuales, es capaz de tomar una codificación de cualquier otra máquina como dato de entrada y comportarse como ella, todo esto sin cambiar un solo cable. Como las computadoras actuales, es una máquina que, en algún sentido, es todas las máquinas.
+        </p>
+        <p>
+          Una de las consecuencias de estos nuevos objetos técnicos es que las enormes diferencias entre un algoritmo y otro son invisibles a los ojos. Ciertamente, podría verse el código de cada programa, y aquellas personas que pudieran leerlo comprenderían sus características específicas y, mejor aún, serían capaces de modificarlo y adecuarlo a las tareas que quisieran realizar. Pero nada de esto es visible “desde fuera”. Los pequeños robots no se distinguen de un auto a cuerda, las computadoras en fila dan una errónea impresión de homogeneidad. Los programas tienen una diversidad infinita, los robots son también computadoras que pueden ser programados para las tareas más diversas. 
+        </p>
+        <p>
+          Esta manera de ver estos objetos conlleva también otra gran novedad que, podría decirse, es la característica de este siglo: no son objetos “aislados”, sino que componen un nuevo ecosistema interconectado, un ambiente técnico en el que habitan dispositivos activos de diversas índoles, incluidos los humanos. Estos ambientes existen gracias a la enorme versatilidad de las tecnologías computacionales, que permite animar de maneras diversas todo tipo de objetos. Existir, actuar o vivir en estos ambientes ofrece múltiples posibilidades nuevas, así como desafíos y problemas. Uno de los desafíos más urgentes es lo que podríamos llamar como “adquisición de ciudadanía plena” en este nuevo ecosistema digital, concebido no como un modelo o réplica del mundo (mundos virtuales), sino como un nuevo mundo ciber-físico, donde un conjunto enorme y creciente de objetos técnicos invisibles ofrece múltiples posibilidades de acción y de vinculaciones. 
+        </p>
+        <p>
+          La comprensión de estas formas de funcionamiento se vuelve entonces condición para una existencia plena en un universo técnico que, además, evoluciona aceleradamente. Es necesario, también, aprender a mirar, a sabiendas de que ya no todo lo que funciona es visible. Un ejemplo particularmente relevante para nuestras democracias es el fallido intento de producir “urnas electrónicas”, es decir, de usar computadoras para emitir los sufragios en lugar de las urnas de cartón, donde la ciudadanía expresa su voluntad a través de un voto de papel. Pese a no haberse podido resolver los problemas de seguridad, secreto del voto, accesibilidad a la fiscalización, etcétera, parece que la idea de votar en computadoras nunca termina de morir, quién sabe por qué razones o intereses. Uno de los argumentos es que “las computadoras pueden hacer de todo”, lo que en cierto sentido es verdadero. Quizá el problema está en esa misma capacidad: si hay algo que las computadoras no pueden hacer es NO procesar la información que ingresa en ellas. Desde el momento en que un dato es tomado por un programa, este es procesado de diferentes maneras. No es lo que se quiere con un voto depositado en una urna. Por supuesto que ese procesamiento puede ser simplemente contarlo honestamente y agregarlo a una planilla que resuma la cantidad de votos. Pero podría ser otro, por ejemplo, contarlo dos veces. O cien veces. Y, puestos a procesar, no hay ninguna distinción visible entre cada una de esas diferentes “urnas”. La de cartón nos da la garantía de no procesar el voto, de persistencia física. 
+        </p>
+        <p>
+          Aprender a ver estos ambientes tecnológicos es también abrir infinitas posibilidades de transformarlos, brinda herramientas valiosas para construir mundos más justos y más solidarios.
+        </p>
+      
+        
+        <p class="arena3 my-4 text-center h2">⥈</p>
+    </div>
+    </div>
+  </div>
+
+
+  <div id="referencias" class="jumbotron d-flex p-4 align-items-center bg-arena2" style="min-height: 50vh;">
+    <div class="container-fluid " >
+      <div class="row justify-content-center">
+        <div class="col-sm-8 arena4">
+         <h4 class="arena4 my-4">Referencias</h4>
+        <p>
+          Tyldum, M. (2014). <i>The Imitation Game</i>. Estados Unidos: The Weinstein Company.
+        </p>
+            
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="bio" class="jumbotron d-flex p-4 align-items-center bg-verdemusgo" style="min-height: 50vh;">
+    <div class="container-fluid" >
+      <div class="row justify-content-center">
+        <div class="col-lg-1 text-left">
+         <img src="img/a_blanco.png" alt="" style="opacity: 0.8; margin-bottom: 1.5em; margin-right: 1em; width: 7em;" class="img-fluid" >
+        </div>
+        <div class="col-lg-7">
+          
+         <h4 class="arena4">Javier Blanco</h4>
+         <p style="color: white">
+          Es doctor en Informática (Universidad de Eindhoven, Países Bajos). Es profesor titular de la Facultad de Matemática, Astronomía, Física y Computación de la Universidad Nacional de Córdoba. Actualmente, es director de la Maestría en Tecnología, Políticas y Culturas y director alterno del Doctorado en Ciencias de la Computación. Dirigió tesis doctorales en Computación, Filosofía, Educación, Letras y Geografía. Especializado en las áreas de métodos formales, filosofía y computación, filosofía de la información y filosofía de la técnica, ha escrito numerosos libros y trabajos científicos. Actualmente, es secretario general de ADIUC, gremio de los docentes e investigadores universitarios de Córdoba.
+        </p>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+
+
+
+
+<script src="scripts.js"></script> 
+</body>
+</html>
