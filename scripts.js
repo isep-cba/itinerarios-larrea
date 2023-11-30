@@ -15,7 +15,7 @@ function closeNav() {
 
 // REVELADO 2
 
-  function FadeOut() {
+  function FadeOut1() {
     const tapa = document.getElementById('tapa1');
 
     tapa.style.opacity = '0';
@@ -36,7 +36,7 @@ function FadeOut3() {
 function FadeOut4() {
   const tapa = document.getElementById('tapa4');
 
-  tapa3.style.opacity = '0';
+  tapa4.style.opacity = '0';
 }
 
  // BARRA DE PROGRESO DE LECTURA
