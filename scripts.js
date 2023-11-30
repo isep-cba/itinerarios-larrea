@@ -18,7 +18,7 @@ function closeNav() {
   function FadeOut1() {
     const tapa = document.getElementById('tapa1');
 
-    tapa.style.opacity = '0';
+    tapa1.style.opacity = '0';
  }
 
  function FadeOut2() {
